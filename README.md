@@ -22,7 +22,7 @@ Our core contributions are:
     git clone https://github.com/Utkarsh-Mishra444/Denoising-Gaussian-Splatting.git --recursive
     ```
 
-2.  **Environment Setup:** Follow the original 3D Gaussian Splatting repository's instructions to set up the environment, creating a Conda environment using the provided environment.yml with CUDA 11.3. Or use the environment.yml file that comes with this repository, which already contains additional libraries (like scikit-learn) for the DBSCAN implemenation. Ensure proper installation of the submodules.
+2.  **Environment Setup:** Follow the original 3D Gaussian Splatting repository's instructions to set up the environment and then install scikit-learn. Or create a Conda environment using the provided environment.yml with CUDA 11.6, which already contains additional libraries (like scikit-learn) for the DBSCAN implemenation.
 
 3.  **Training:** Run `train.py` with the following key new arguments:
 
