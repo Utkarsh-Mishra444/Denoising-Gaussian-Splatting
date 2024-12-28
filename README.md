@@ -12,7 +12,7 @@ Our core contributions are:
 
     *   **DBSCAN Clustering:** Identifies and retains points belonging to dense clusters, discarding noise and outliers that can negatively impact reconstruction quality.
 
-2.  **Novel L2 Regularization:**  We introduce an L2 regularization term during training that penalizes Gaussians deviating from their original starting positions (computed in the denoising stage). This regularization mitigates overfitting and prevents gaussians from randomly placing themselves in space to fit sparse inputs for preventing reconstructions that don't interpolate well.
+2.  **Novel Regularization:**  We introduce a regularization term that penalizes Gaussians deviating from their original starting positions (computed in the denoising stage). This regularization mitigates overfitting and prevents gaussians from randomly placing themselves in space to fit sparse inputs for preventing reconstructions that don't interpolate well.
 
 ## Usage and Installation
 
